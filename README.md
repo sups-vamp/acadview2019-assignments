@@ -1,2 +1,2 @@
 # trial
-acadview assignments.
+acadview assignments and exercises!
