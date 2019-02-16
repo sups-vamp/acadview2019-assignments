@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Display from './Display';
-import NewForm from './newform';
+
 class App extends Component {
   state={
     displayInfo:[
@@ -17,7 +17,7 @@ class App extends Component {
 
         <Display name="sups" age="21"/>
       <Display name="ritz" age="21"/>
-        <NewForm></NewForm>
+
       </div>
 
     );
