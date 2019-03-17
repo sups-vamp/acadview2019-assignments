@@ -2,8 +2,7 @@ import React,{ Component } from 'react';
 import { Link } from 'react-router-dom';
 class Navbar extends Component{
 render(){
-    return(
-       
+    return(    
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <Link className="navbar-brand"  to="/">MERN masters</Link>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,8 +21,7 @@ render(){
                         </li>
                     </ul>
                 </div>
-            </nav>
-        
+            </nav>       
     )
 }
 }
